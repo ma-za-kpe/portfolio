@@ -1,0 +1,14 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background-image: url("../images/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-size: 100%;
+}
+main{
+ margin-top: 560px;
+}
