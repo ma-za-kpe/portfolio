@@ -9,6 +9,36 @@ body{
   background-size:cover;
   background-size: 100%;
 }
+header.logo h1{
+  font-size: 150px;
+  float: left;
+}
+header nav{
+  margin-top: -20px;
+  margin-right: 100px;
+}
+header nav ul{
+  float: right;
+}
+header nav ul li{
+  display: inline;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.middle-header{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.middle-header p{
+  font-size: 20px;
+  font-style: italic;
+}
 main{
- margin-top: 400px;
+ margin-top: 610px;
 }
