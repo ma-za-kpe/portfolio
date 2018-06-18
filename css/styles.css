@@ -10,7 +10,7 @@ body{
   background-size: 100%;
 }
 header img{
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 20px;
   width: 80px;
   height: auto;
@@ -53,10 +53,10 @@ main{
  text-align: center;
 }
 .moi h2{
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   font-size: 40px;
-  margin-bottom: -20px
+  margin-bottom: 20px
 }
 .moi img{
   float: left;
@@ -76,21 +76,19 @@ span a{
   margin-top: 80px;
   text-align: center;
   font-size: 40px;
-  margin-bottom: -20px
+  margin-bottom: 20px
 }
 .recent-work{
   margin-bottom: 250px;
 }
 .recent-work .card{
   margin-left: 30px;
+  box-shadow: 4px 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 20px 0 rgba(256, 256, 256, 0.19);
   float: left;
 }
 .recent-work .card h2 {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-size: 20px;
-}
-.card{
-  box-shadow: 4px 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 20px 0 rgba(256, 256, 256, 0.19);
 }
 .card a button{
   background-color: black;
