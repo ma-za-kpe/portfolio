@@ -52,6 +52,9 @@ main{
  border: 2px solid black;
  text-align: center;
 }
+.moi{
+  margin-bottom: 55px;
+}
 .moi h2{
   margin-top: 10px;
   text-align: center;
@@ -73,7 +76,7 @@ span a{
   font-weight: 600;
 }
 .recent-work h2{
-  margin-top: 80px;
+  margin-top: 30px;
   text-align: center;
   font-size: 40px;
   margin-bottom: 20px
@@ -110,4 +113,46 @@ button:hover {
 .card p{
   font-size: 15px;
   font-weight: lighter;
+}
+.skill{
+  float: left;
+  margin: 10px;
+  padding: 20px;
+}
+.my-skills1{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+ .my-skills1 img{
+  width: 159px;
+  height: auto;
+}
+.sk{
+  margin-top: -50px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px
+}
+#first{
+  background-color: #040103;
+}
+.find-me ul li{
+    display: inline-block;
+}
+.find-me ul li a{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+.find-me ul li a img{
+  width: 50px;
+  height: auto;
+}
+.qoute{
+  margin-left: 490px;
+  color: white;
+}
+#second{
+  color: white;
+  background-color: black;
 }
