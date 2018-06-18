@@ -151,8 +151,10 @@ button:hover {
 .qoute{
   margin-left: 490px;
   color: white;
+  margin-bottom: 20px;
 }
 #second{
+  text-align: center;
   color: white;
   background-color: black;
 }
