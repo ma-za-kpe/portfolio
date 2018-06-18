@@ -58,3 +58,8 @@ main{
   font-size: 40px;
   margin-bottom: -20px
 }
+.moi img{
+  float: left;
+  width: 300px;
+  height: auto
+}
