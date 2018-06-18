@@ -43,6 +43,18 @@ header nav ul li a{
   font-size: 20px;
   font-style: italic;
 }
+/*main section*/
 main{
- margin-top: 610px;
+ margin-top: 650px;
+ width: 80%;
+ margin-left:auto;
+ margin-right:auto;
+ border: 2px solid black;
+ text-align: center;
+}
+.moi h2{
+  margin-top: 50px;
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: -20px
 }
