@@ -116,6 +116,7 @@ button:hover {
   font-weight: lighter;
 }
 .flex-container {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -123,7 +124,7 @@ button:hover {
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: white;
   width: 300px;
   margin-left: 20px;
 
@@ -138,7 +139,7 @@ button:hover {
 }
 
 .flex-container1 > div {
-  background-color: #f1f1f1;
+  background-color:white;
   width: 300px;
   margin: 10px;
 
