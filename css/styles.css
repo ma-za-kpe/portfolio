@@ -115,18 +115,33 @@ button:hover {
   font-size: 15px;
   font-weight: lighter;
 }
-.skill{
-  float: left;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:white;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin-left: 20px;
+
+}
+/*set 2 of images*/
+.flex-container1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 300px;
   margin: 10px;
-  padding: 20px;
-}
-.my-skills1{
-  margin-left: 50px;
-  margin-bottom: 20px;
-}
- .my-skills1 img{
-  width: 159px;
-  height: auto;
+
 }
 .sk{
   margin-top: -50px;
