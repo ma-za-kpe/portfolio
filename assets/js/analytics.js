@@ -5,7 +5,7 @@
  * into GA4_ID below. With it empty, nothing loads and every call is a no-op.
  *
  * Events sent:
- *   book_call, cta_click, project_click, social_click, email_copy, resume_download, crew_interest  (from [data-track])
+ *   book_call, cta_click, project_click, profile_click, social_click, email_copy, resume_download, crew_interest  (from [data-track])
  *   outbound_click   any external link without data-track
  *   scroll_depth     25 / 50 / 75 / 100 %
  *   section_view     each main section as it scrolls into view
