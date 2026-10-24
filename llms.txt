@@ -9,7 +9,7 @@
 
 ## Highlights
 - StartupTribunal: multi-model research (Claude, Gemini, Grok, Bedrock), five-judge Tribunal, evidence-gated publishing, MCP-compatible agent APIs; 41% cut in monthly infra spend; 433-test Docker release gate.
-- Farmerline: greenfield Android + Kotlin Multiplatform (32 shared modules), offline-first sync with encrypted idempotent outboxes, 33-component Compose design system, removed 296 crash risks in a legacy app.
+- Farmerline (JustFarm on Google Play: https://play.google.com/store/apps/details?id=co.farmerline.farmmanagement): greenfield Android + Kotlin Multiplatform (32 shared modules), offline-first sync with encrypted idempotent outboxes, 33-component Compose design system, removed 296 crash risks in a legacy app.
 - AgriGuard: Django/GeoDjango farm advisory & insurance backend; 70% faster deploys.
 
 ## Contact
