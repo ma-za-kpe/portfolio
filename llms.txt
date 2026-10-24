@@ -10,6 +10,7 @@
 ## Highlights
 - StartupTribunal: multi-model research (Claude, Gemini, Grok, Bedrock), seven-judge Tribunal, evidence-gated publishing, MCP-compatible agent APIs; 41% cut in monthly infra spend; 433-test Docker release gate.
 - Farmerline (JustFarm on Google Play: https://play.google.com/store/apps/details?id=co.farmerline.farmmanagement): greenfield Android + Kotlin Multiplatform (32 shared modules), offline-first sync with encrypted idempotent outboxes, 33-component Compose design system, removed 296 crash risks in a legacy app.
+- Talk to Crew (passion project, research and co-design stage, Oct 2026–now): accessible AI software creation so Deaf and hard-of-hearing people and blind and low-vision people can independently create, understand, change and maintain software they own. Target: WCAG 2.2 AA + ATAG 2.0. Not yet a shipped product.
 - Stood (PayPal AI Hackathon 2026, https://github.com/ma-za-kpe/stood, site https://ma-za-kpe.github.io/stood/): open-source evidence-gated release gate for code milestones and staged payments on PayPal; deterministic rules capture, void or hold; the AI never holds PayPal keys.
 - AgriGuard: Django/GeoDjango farm advisory & insurance backend; 70% faster deploys.
 

@@ -228,6 +228,20 @@ em.serif { color: var(--ember); }
 .card--feature .link-arrow { margin-left: auto; }
 .card__links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
 
+/* Talk to Crew */
+.card--crew { grid-column: span 6; display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(28px, 4vw, 56px); background: linear-gradient(135deg, rgba(142, 124, 255, .16), var(--ink-2) 55%); }
+.card--crew::before { background: radial-gradient(420px circle at var(--mx) var(--my), rgba(142, 124, 255, .16), transparent 60%); }
+.crew__main { display: flex; flex-direction: column; gap: 16px; }
+.tag--iris { border-color: rgba(142, 124, 255, .5); color: #C4B9FF; }
+.crew__promise { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.2; color: #C4B9FF; }
+.crew__note { font: 500 12px/1.5 var(--mono); color: var(--dim); }
+.crew__modes { align-self: center; display: flex; flex-direction: column; gap: 10px; }
+.crew__modes li { display: flex; align-items: baseline; gap: 14px; padding: 16px 18px; border-radius: 14px; border: 1px solid var(--line); background: rgba(11, 10, 16, .45); animation: mode 10s var(--ease) infinite; }
+.crew__modes li:nth-child(2) { animation-delay: 2s; } .crew__modes li:nth-child(3) { animation-delay: 4s; } .crew__modes li:nth-child(4) { animation-delay: 6s; } .crew__modes li:nth-child(5) { animation-delay: 8s; }
+.crew__modes .m { flex: none; width: 76px; font: 700 13px/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--bone); }
+.crew__modes .d { font-size: 15px; color: var(--mute); }
+@keyframes mode { 0%, 22%, 100% { border-color: var(--line); } 4%, 16% { border-color: rgba(142, 124, 255, .7); box-shadow: 0 0 30px -10px rgba(142, 124, 255, .6); } }
+
 /* Stood verdict stamps */
 .verdicts { display: flex; flex-wrap: wrap; gap: 10px; }
 .v { display: flex; flex-direction: column; gap: 4px; padding: 10px 14px; border-radius: 10px; border: 1.5px dashed; font: 700 14px/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; transform: rotate(-2deg); animation: stamp 6s var(--ease) infinite; }
@@ -255,6 +269,7 @@ em.serif { color: var(--ember); }
   .bento { grid-auto-flow: dense; }
   .card, .card--w2 { grid-column: span 1; }
   .card--feature, .card--w4, .card--quote { grid-column: span 2; }
+  .card--crew { grid-column: span 2; grid-template-columns: 1fr; }
   .card--feature { padding-right: clamp(24px, 3vw, 36px); padding-top: 260px; }
   .card__art { width: 100%; max-width: none; bottom: auto; height: 260px; }
   .judges { width: 200px; --r: 74px; }
@@ -264,7 +279,7 @@ em.serif { color: var(--ember); }
 }
 @media (max-width: 620px) {
   .bento { grid-template-columns: 1fr; }
-  .card, .card--feature, .card--w4, .card--w2, .card--quote { grid-column: span 1; }
+  .card, .card--feature, .card--w4, .card--w2, .card--quote, .card--crew { grid-column: span 1; }
 }
 
 /* ---------- principles ---------- */
