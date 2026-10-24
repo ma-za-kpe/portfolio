@@ -1,100 +1,326 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Maku Mazakpe — AI-Native Software Engineer · Android, Kotlin Multiplatform & AI Systems</title>
+  <meta name="description" content="Maku Mazakpe is an AI-native software engineer in Accra, Ghana shipping production Android, Kotlin Multiplatform, backend and multi-LLM systems. Founder of StartupTribunal. Open to senior IC, FDE and consulting work.">
+  <meta name="author" content="Maku Mazakpe">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://ma-za-kpe.github.io/portfolio/">
+  <meta name="theme-color" content="#0B0A10">
+  <meta name="color-scheme" content="dark">
 
-    <header>
-      <div class="logo">
-        <img src="images/m.png" alt="Maku">
-      </div>
-      <nav>
-        <ul>
-          <li> <a href="#">HOME</a> </li>
-          <li> <a href="#">ABOUT</a> </li>
-          <li> <a href="#">CONTACT</a> </li>
-          <li> <a href="#">GITHUB</a> </li>
-        </ul>
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Maku Mazakpe">
+  <meta property="og:title" content="Maku Mazakpe — Africa-built. Global-grade.">
+  <meta property="og:description" content="AI-native software engineer shipping offline-first mobile, backend and multi-LLM systems from Accra to the world.">
+  <meta property="og:url" content="https://ma-za-kpe.github.io/portfolio/">
+  <meta property="og:image" content="https://ma-za-kpe.github.io/portfolio/assets/brand/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Maku Mazakpe — AI-Native Software Engineer. Africa-built. Global-grade.">
+  <meta property="og:locale" content="en_US">
+  <meta property="profile:first_name" content="Maku">
+  <meta property="profile:last_name" content="Mazakpe">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@makumazakpe">
+  <meta name="twitter:creator" content="@makumazakpe">
+  <meta name="twitter:title" content="Maku Mazakpe — Africa-built. Global-grade.">
+  <meta name="twitter:description" content="AI-native software engineer shipping offline-first mobile, backend and multi-LLM systems.">
+  <meta name="twitter:image" content="https://ma-za-kpe.github.io/portfolio/assets/brand/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="assets/js/analytics.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://ma-za-kpe.github.io/portfolio/#maku",
+        "name": "Maku Mazakpe",
+        "alternateName": ["Maku Pauline Mazakpe", "Maku"],
+        "jobTitle": "AI-Native Software Engineer",
+        "description": "Software engineer shipping production Android, Kotlin Multiplatform, backend and multi-LLM AI systems.",
+        "url": "https://ma-za-kpe.github.io/portfolio/",
+        "image": "https://ma-za-kpe.github.io/portfolio/assets/brand/avatar.png",
+        "email": "mailto:makpalyy@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Accra", "addressCountry": "GH" },
+        "worksFor": [
+          { "@type": "Organization", "name": "StartupTribunal", "url": "https://startuptribunal.com" },
+          { "@type": "Organization", "name": "Farmerline Group", "url": "https://farmerline.co" }
+        ],
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Uganda Christian University" },
+          { "@type": "EducationalOrganization", "name": "Moringa School" },
+          { "@type": "EducationalOrganization", "name": "MEST Africa" }
+        ],
+        "knowsAbout": ["Android", "Kotlin", "Kotlin Multiplatform", "Jetpack Compose", "Offline-first sync", "TypeScript", "Next.js", "Python", "Django", "FastAPI", "Large language models", "Multi-LLM routing", "LLM evaluation", "Model Context Protocol", "Google Cloud", "AWS Bedrock", "CI/CD"],
+        "sameAs": [
+          "https://github.com/ma-za-kpe",
+          "https://www.linkedin.com/in/maku-mazakpe",
+          "https://x.com/makumazakpe",
+          "https://startuptribunal.com/maku"
+        ]
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://ma-za-kpe.github.io/portfolio/#page",
+        "url": "https://ma-za-kpe.github.io/portfolio/",
+        "name": "Maku Mazakpe — AI-Native Software Engineer",
+        "dateModified": "2026-10-24",
+        "inLanguage": "en",
+        "mainEntity": { "@id": "https://ma-za-kpe.github.io/portfolio/#maku" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ma-za-kpe.github.io/portfolio/#site",
+        "url": "https://ma-za-kpe.github.io/portfolio/",
+        "name": "Maku Mazakpe",
+        "publisher": { "@id": "https://ma-za-kpe.github.io/portfolio/#maku" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a class="brand" href="#top" aria-label="Maku Mazakpe — home">
+        <svg class="brand__glyph" viewBox="8 14 50 37" aria-hidden="true"><path d="M13 45V20l14 14 14-14v25" fill="none" stroke="currentColor" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="51.5" cy="44.5" r="4.5" fill="var(--ember)"/></svg>
+        <span class="brand__word">maku<span class="dot">.</span></span>
+      </a>
+      <nav class="nav__links" id="menu" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--sm btn--ember" href="https://cal.com/maku-mazakpe-fpsawz" target="_blank" rel="noopener" data-track="book_call" data-track-label="nav">Book a call</a>
       </nav>
-    </header>
-
-    <div class="middle-header">
-      <h1>Maku</h1>
-      <p>Im a Front end mobile and web developer.</p>
+      <button class="nav__toggle" id="menuToggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
     </div>
+  </header>
 
-    <main>
-      <div class="moi">
-        <h2>ABOUT ME</h2>
-        <hr>
-        <img src="images/me.jpg" alt="maku pauline mazakpe">
-        <div class="details">
-          <p>
-            Im Maku Pauline Mazakpe, my friends call me Maku.
-            studied at UCU-Uganda Christatian University 2015-2018.
-            From Seeta High School both O and A levels. Currently studying a web development and design
-            prep course at Moringa School - 2018. I love playing pool, watching movies and going to the
-            Gym. find out more about me <span> <a href="#">here.</a> </span>
-          </p>
-        </div>
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="orb orb--ember"></div>
+        <div class="orb orb--iris"></div>
+        <div class="orb orb--volt"></div>
+        <div class="grid-lines"></div>
       </div>
-      <hr>
-      <div class="recent-work">
-        <h2>RECENT WORK</h2>
-        <hr>
-        <div class="card">
-          <h3>Resort site</h3>
-          <a href="../portfolio/resort.html"><button type="button" name="button">RESORT</button></a>
-          <p>A resort website created using html and css</p>
+      <div class="wrap hero__inner">
+        <p class="status reveal"><span class="pulse"></span>Open to senior IC, FDE &amp; consulting</p>
+        <h1 class="hero__title">
+          <span class="line"><span class="word">Africa-built.</span></span>
+          <span class="line"><em class="word serif">Global-grade.</em></span>
+        </h1>
+        <p class="hero__lede reveal">I'm <strong>Maku Mazakpe</strong>, an AI-native software engineer in Accra. I ship
+          <span class="rotator" aria-live="polite"><span>offline-first Android apps</span><span>Kotlin Multiplatform products</span><span>multi-LLM research systems</span><span>agent-ready APIs</span></span>
+          that hold up under real-world constraints: patchy networks, tight budgets, high stakes.</p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--ember btn--lg magnetic" href="#work" data-track="cta_click" data-track-label="see_work">See the work <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost btn--lg magnetic" href="https://cal.com/maku-mazakpe-fpsawz" target="_blank" rel="noopener" data-track="book_call" data-track-label="hero">Book a 30-min call</a>
         </div>
-        <div class="card">
-          <h3>Ice-cream site</h3>
-          <a href="http://mazakpe.com"><button type="button" name="button">ICE-CREAM</button></a>
-          <p>A resort website created using Bootstrap</p>
-        </div>
-        <div class="card">
-          <h3>Tourist site</h3>
-          <a href="../portfolio/Happy-trails-travel-agency.html"><button type="button" name="button">Tourist</button></a>
-          <p>A tourist website created using html and css</p>
-        </div>
+        <dl class="hero__meta reveal">
+          <div><dt>Based</dt><dd>Accra, Ghana · GMT</dd></div>
+          <div><dt>Now</dt><dd>Founder, StartupTribunal · Senior Mobile, Farmerline</dd></div>
+          <div><dt>Shipping since</dt><dd>2020</dd></div>
+        </dl>
       </div>
-      <h2 class="sk">SKILLS</h2>
-      <hr>
-      <div class="flex-container">
-        <div> <img src="images/css3.png" alt="css3"> </div>
-        <div> <img src="images/html5.jpeg" alt="html5"> </div>
-        <div> <img src="images/javascript.png" alt="js"> </div>
-      </div>
-      <div class="flex-container1">
-        <div> <img src="images/jquery.png" alt="jquery"> </div>
-        <div> <img src="images/android.png" alt="android"> </div>
-        <div> <img src="images/bootstrap.jpeg" alt="bootstrap"> </div>
-      </div>
-    </main>
+      <a class="scroll-cue" href="#stack" aria-label="Scroll to content"><span></span></a>
+    </section>
 
-    <footer id="first">
-      <div class="find-me">
+    <!-- MARQUEE -->
+    <section class="marquee" id="stack" aria-label="Technologies">
+      <div class="marquee__track">
         <ul>
-          <li> <a href="#">Tel:+256 779 401 600</a> </li>
-          <li> <a href="#">email: makpalyy@gmail.com</a> </li>
-          <li> <a href="#"> <img src="images/link.png" alt="linked in"> </a> </li>
-          <li> <a href="#"> <img src="images/twitter.jpeg" alt="twitter"> </a> </li>
-          <li> <a href="#"> <img src="images/github.png" alt="GITHUB"> </a> </li>
-          <li> <a href="#"> <img src="images/whatsapp.jpeg" alt="whatsapp"> </a> </li>
+          <li>Kotlin</li><li>Jetpack Compose</li><li>Kotlin Multiplatform</li><li>TypeScript</li><li>Next.js</li><li>Python</li><li>Django</li><li>FastAPI</li><li>Claude</li><li>Gemini</li><li>Grok</li><li>AWS Bedrock</li><li>LangGraph</li><li>MCP</li><li>Cloud Run</li><li>PostgreSQL</li><li>BigQuery</li><li>Room</li><li>WorkManager</li><li>GitHub Actions</li>
+        </ul>
+        <ul aria-hidden="true">
+          <li>Kotlin</li><li>Jetpack Compose</li><li>Kotlin Multiplatform</li><li>TypeScript</li><li>Next.js</li><li>Python</li><li>Django</li><li>FastAPI</li><li>Claude</li><li>Gemini</li><li>Grok</li><li>AWS Bedrock</li><li>LangGraph</li><li>MCP</li><li>Cloud Run</li><li>PostgreSQL</li><li>BigQuery</li><li>Room</li><li>WorkManager</li><li>GitHub Actions</li>
         </ul>
       </div>
-      <div class="qoute">
-        <label for="news-letter">Get a Qoute</label>
-        <input type="text" id="letter" name="letter">
-      </div>
-    </footer>
-    <footer id="second">
-      <p class="c">©2018 Maku. All Rights Reserved. Developed with ❤ by Maku Pauline.</p>
-    </footer>
+    </section>
 
-  </body>
+    <!-- STATS -->
+    <section class="section stats wrap" aria-labelledby="stats-h">
+      <h2 class="eyebrow reveal" id="stats-h"><span>01</span> Receipts, not adjectives</h2>
+      <div class="stats__grid">
+        <div class="stat reveal"><p class="stat__num"><span data-count="41">41</span>%</p><p class="stat__label">cut in monthly infra spend through LLM cost controls &amp; BigQuery analysis</p></div>
+        <div class="stat reveal"><p class="stat__num"><span data-count="433">433</span></p><p class="stat__label">unit, integration &amp; E2E tests gating every StartupTribunal release</p></div>
+        <div class="stat reveal"><p class="stat__num"><span data-count="296">296</span></p><p class="stat__label">crash risks removed from a mature production Android app</p></div>
+        <div class="stat reveal"><p class="stat__num"><span data-count="32">32</span></p><p class="stat__label">shared Kotlin Multiplatform modules across Android &amp; iOS</p></div>
+        <div class="stat reveal"><p class="stat__num"><span data-count="70">70</span>%</p><p class="stat__label">faster deployments after introducing CI/CD at AgriGuard</p></div>
+        <div class="stat reveal"><p class="stat__num"><span data-count="4">4</span></p><p class="stat__label">LLM providers routed in production: Claude, Gemini, Grok &amp; Bedrock</p></div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section wrap" id="work" aria-labelledby="work-h">
+      <div class="section__head">
+        <h2 class="eyebrow reveal"><span>02</span> Selected work</h2>
+        <p class="section__title reveal" id="work-h">Products in production, <em class="serif">not demos.</em></p>
+      </div>
+
+      <div class="bento">
+        <article class="card card--feature reveal spot">
+          <div class="card__top">
+            <span class="tag tag--live"><span class="pulse"></span>Live</span>
+            <span class="card__role">Founder &amp; Lead Engineer · 2025 – now</span>
+          </div>
+          <h3 class="card__title">StartupTribunal</h3>
+          <p class="card__text">An AI-native startup-validation platform for African and emerging-market builders. Multi-model research across Grok, Gemini, Claude and Bedrock goes through a <strong>five-judge Tribunal</strong>, source-provenance rules and evidence-gated publishing. It also carries an agent-economy layer: MCP-compatible APIs, x402/USDC access and AI-referral attribution.</p>
+          <ul class="chips"><li>Next.js</li><li>Cloud Run</li><li>Cloud SQL</li><li>Multi-LLM</li><li>MCP</li><li>Playwright</li></ul>
+          <div class="card__foot">
+            <div class="kpi"><b>41%</b><span>infra spend cut</span></div>
+            <div class="kpi"><b>5</b><span>AI judges</span></div>
+            <div class="kpi"><b>433</b><span>tests in release gate</span></div>
+            <a class="link-arrow" href="https://startuptribunal.com" target="_blank" rel="noopener" data-track="project_click" data-track-label="startuptribunal">Visit startuptribunal.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="card__art" aria-hidden="true">
+            <div class="judges"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </article>
+
+        <article class="card reveal spot">
+          <div class="card__top"><span class="tag">Mobile · KMP</span><span class="card__role">Senior Mobile Developer · 2024 – now</span></div>
+          <h3 class="card__title">Farmerline field platform</h3>
+          <p class="card__text">Greenfield Android and iOS products for agricultural field operations, owned from the first commit. It has offline-first sync with encrypted idempotent outboxes, GPS boundary capture on Google Maps and MapKit, a 33-component Compose design system, and an in-app AI assistant in three languages.</p>
+          <ul class="chips"><li>Kotlin</li><li>Compose</li><li>KMP</li><li>Room</li><li>WorkManager</li></ul>
+          <div class="card__foot"><div class="kpi"><b>20s→0</b><span>blocking login removed</span></div><div class="kpi"><b>80%</b><span>mapping coverage</span></div></div>
+        </article>
+
+        <article class="card reveal spot">
+          <div class="card__top"><span class="tag">AI · Serverless</span><span class="card__role">Builder · 2024 – now</span></div>
+          <h3 class="card__title">VibeJudge</h3>
+          <p class="card__text">Hackathon code review on AWS Lambda: five Bedrock agents analyse each submission and return Pydantic-validated verdicts. Repos are cloned, judged, then discarded, so no code is retained.</p>
+          <ul class="chips"><li>AWS Lambda</li><li>Bedrock</li><li>Python</li><li>Pydantic</li></ul>
+        </article>
+
+        <article class="card reveal spot">
+          <div class="card__top"><span class="tag">Backend · Geo</span><span class="card__role">Technical Lead · 2023 – 2024</span></div>
+          <h3 class="card__title">AgriGuard advisory</h3>
+          <p class="card__text">A farm advisory and insurance backend: Django/DRF, Celery and GeoDjango, with AI advisory grounded in agricultural and geospatial data, plus secure payments.</p>
+          <ul class="chips"><li>Django</li><li>GeoDjango</li><li>Celery</li><li>RAG</li></ul>
+          <div class="card__foot"><div class="kpi"><b>70%</b><span>faster deploys</span></div></div>
+        </article>
+
+        <article class="card card--quote reveal spot">
+          <p class="quote serif">“Skip a slot rather than publish a low-quality row.”</p>
+          <p class="card__role">Engineering principle №2: honest fallbacks</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRINCIPLES -->
+    <section class="section wrap" id="principles" aria-labelledby="principles-h">
+      <div class="section__head">
+        <h2 class="eyebrow reveal"><span>03</span> How I work</h2>
+        <p class="section__title reveal" id="principles-h">AI does the typing. <em class="serif">I own the outcome.</em></p>
+        <p class="section__sub reveal">I built my engineering foundation before coding agents went mainstream. Now I use Claude Code and Codex to move faster, while I keep ownership of architecture, review, security and every release.</p>
+      </div>
+      <ol class="principles">
+        <li class="reveal"><span class="n">01</span><h3>Tests first, incidents pinned</h3><p>Every gate rule starts as a test. Every production incident becomes a regression test.</p></li>
+        <li class="reveal"><span class="n">02</span><h3>Honest fallbacks</h3><p>When quality isn't there, the system says so instead of shipping filler.</p></li>
+        <li class="reveal"><span class="n">03</span><h3>Provenance everywhere</h3><p>Source URL, quotes, content hash and signal strength on every row.</p></li>
+        <li class="reveal"><span class="n">04</span><h3>Cost is a feature</h3><p>Budget reservations, billing ticks and caching are designed in from day one.</p></li>
+        <li class="reveal"><span class="n">05</span><h3>Offline is the default</h3><p>Built for field agents on 2G: outboxes, retries and process-death recovery.</p></li>
+        <li class="reveal"><span class="n">06</span><h3>Docs as code</h3><p>Architecture, runbooks and decisions are versioned next to the code they describe.</p></li>
+      </ol>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section wrap" id="experience" aria-labelledby="exp-h">
+      <div class="section__head">
+        <h2 class="eyebrow reveal"><span>04</span> Experience</h2>
+        <p class="section__title reveal" id="exp-h">Six years across <em class="serif">three countries.</em></p>
+      </div>
+      <ol class="timeline">
+        <li class="reveal"><span class="when">Nov 2025 — Now</span><div><h3>Founder &amp; Lead Engineer <span>· StartupTribunal</span></h3><p>An AI research platform with evidence-based quality gates, LLM cost controls, cloud workers and agent-facing APIs.</p></div><span class="where">Accra</span></li>
+        <li class="reveal"><span class="when">Oct 2024 — Now</span><div><h3>Senior Mobile Developer <span>· Farmerline Group</span></h3><p>Offline-first Android and KMP products, platform modernisation to API 36, and CI/CD with automated releases.</p></div><span class="where">Accra</span></li>
+        <li class="reveal"><span class="when">Dec 2023 — Nov 2024</span><div><h3>Technical Lead <span>· AgriGuard Ltd</span></h3><p>Architected the farm advisory and insurance backend; cut deploy time by 70%.</p></div><span class="where">Accra</span></li>
+        <li class="reveal"><span class="when">Sep 2023 — Aug 2024</span><div><h3>Entrepreneur in Training <span>· MEST Africa</span></h3><p>Pan-African entrepreneurship and technology programme.</p></div><span class="where">Accra</span></li>
+        <li class="reveal"><span class="when">Jun 2022 — Apr 2023</span><div><h3>Android Engineer <span>· Accenture</span></h3><p>Android features for financial-services clients: auth, secure APIs and automated tests.</p></div><span class="where">Nairobi</span></li>
+        <li class="reveal"><span class="when">Apr 2021 — Mar 2022</span><div><h3>Full-Stack Developer <span>· Pelel Enterprises</span></h3><p>An agricultural information system: Android client, Lumen APIs and PostgreSQL.</p></div><span class="where">Arua</span></li>
+        <li class="reveal"><span class="when">2020 — 2021</span><div><h3>Android &amp; Web Developer <span>· Freelance</span></h3><p>Apps, APIs and admin tools for teams across East Africa.</p></div><span class="where">Remote</span></li>
+      </ol>
+      <div class="creds reveal">
+        <p class="eyebrow eyebrow--sm">Education &amp; credentials</p>
+        <ul class="chips chips--lg">
+          <li>BSc Information Technology · Uganda Christian University</li>
+          <li>Android Development · Moringa School</li>
+          <li>Entrepreneurship &amp; Technology · MEST Africa</li>
+          <li>Forward Program · McKinsey.org</li>
+          <li>Enterprise Design Thinking · IBM</li>
+        </ul>
+        <a class="link-arrow" href="assets/Maku-Mazakpe-Resume.pdf" target="_blank" rel="noopener" data-track="resume_download">Download résumé (PDF) <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section wrap" id="services" aria-labelledby="svc-h">
+      <div class="section__head">
+        <h2 class="eyebrow reveal"><span>05</span> Work with me</h2>
+        <p class="section__title reveal" id="svc-h">Clear scope. <em class="serif">Shipped outcomes.</em></p>
+      </div>
+      <div class="services">
+        <article class="svc reveal spot"><p class="svc__time">1–2 weeks</p><h3>Agent Readiness Audit</h3><p>Where your product stands for AI agents and crawlers, with a prioritised roadmap.</p><p class="svc__price">$4k – $8k</p></article>
+        <article class="svc svc--hot reveal spot"><p class="svc__time">4–8 weeks</p><h3>AI Product MVP</h3><p>From idea to a production AI product, with evals, cost controls and a real release gate.</p><p class="svc__price">Fixed scope &amp; budget</p></article>
+        <article class="svc reveal spot"><p class="svc__time">4–8 weeks</p><h3>Full Agent Economy Build</h3><p>MCP APIs, agent payments, crawler monetisation and AI-referral attribution.</p><p class="svc__price">$15k – $45k</p></article>
+        <article class="svc reveal spot"><p class="svc__time">2–4 weeks</p><h3>AI Feature Integration</h3><p>LLM features added to your existing web or mobile app, done properly.</p><p class="svc__price">Per feature</p></article>
+        <article class="svc reveal spot"><p class="svc__time">1–3 months</p><h3>Embedded FDE / Contract IC</h3><p>A senior engineer inside your team, shipping from week one.</p><p class="svc__price">Senior rate</p></article>
+        <article class="svc reveal spot"><p class="svc__time">4–10 weeks</p><h3>Agent Intelligence Transformation</h3><p>Re-architect data and APIs for an agent-first distribution model.</p><p class="svc__price">Scoped</p></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="contact__bg" aria-hidden="true"><div class="orb orb--ember"></div><div class="orb orb--iris"></div></div>
+      <div class="wrap contact__inner">
+        <h2 class="eyebrow reveal"><span>06</span> Contact</h2>
+        <p class="contact__title reveal" id="contact-h">Let's build something <em class="serif">that ships.</em></p>
+        <div class="contact__actions reveal">
+          <a class="btn btn--ember btn--lg magnetic" href="https://cal.com/maku-mazakpe-fpsawz" target="_blank" rel="noopener" data-track="book_call" data-track-label="contact">Book a free 30-min call</a>
+          <button class="btn btn--ghost btn--lg magnetic" type="button" id="copyEmail" data-email="makpalyy@gmail.com" data-track="email_copy">makpalyy@gmail.com <span class="copy-hint">Copy</span></button>
+        </div>
+        <ul class="socials reveal">
+          <li><a href="https://github.com/ma-za-kpe" target="_blank" rel="noopener me" data-track="social_click" data-track-label="github">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/maku-mazakpe" target="_blank" rel="noopener me" data-track="social_click" data-track-label="linkedin">LinkedIn</a></li>
+          <li><a href="https://x.com/makumazakpe" target="_blank" rel="noopener me" data-track="social_click" data-track-label="x">X / Twitter</a></li>
+          <li><a href="https://startuptribunal.com" target="_blank" rel="noopener" data-track="social_click" data-track-label="startuptribunal">StartupTribunal</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="brand__word">maku<span class="dot">.</span></span>
+      <p>© <span id="year">2026</span> Maku Mazakpe · Africa-built, global-grade.</p>
+      <a href="brand.html">Brand kit</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
 </html>

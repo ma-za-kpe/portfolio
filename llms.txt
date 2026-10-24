@@ -1,0 +1,20 @@
+# Maku Mazakpe
+
+> AI-native software engineer in Accra, Ghana. 5+ years shipping production Android, Kotlin Multiplatform, backend and multi-LLM AI systems across fintech and agriculture. Founder & Lead Engineer of StartupTribunal; Senior Mobile Developer at Farmerline Group. Open to senior IC, Forward Deployed Engineer and consulting work.
+
+## Profile
+- [Portfolio](https://ma-za-kpe.github.io/portfolio/): work, experience, services, contact
+- [Résumé (PDF)](https://ma-za-kpe.github.io/portfolio/assets/Maku-Mazakpe-Resume.pdf)
+- [StartupTribunal profile](https://startuptribunal.com/maku)
+
+## Highlights
+- StartupTribunal: multi-model research (Claude, Gemini, Grok, Bedrock), five-judge Tribunal, evidence-gated publishing, MCP-compatible agent APIs; 41% cut in monthly infra spend; 433-test Docker release gate.
+- Farmerline: greenfield Android + Kotlin Multiplatform (32 shared modules), offline-first sync with encrypted idempotent outboxes, 33-component Compose design system, removed 296 crash risks in a legacy app.
+- AgriGuard: Django/GeoDjango farm advisory & insurance backend; 70% faster deploys.
+
+## Contact
+- Email: makpalyy@gmail.com
+- Book a call: https://cal.com/maku-mazakpe-fpsawz
+- GitHub: https://github.com/ma-za-kpe
+- LinkedIn: https://www.linkedin.com/in/maku-mazakpe
+- X: https://x.com/makumazakpe

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Kit — Maku Mazakpe</title>
+  <meta name="description" content="Brand guidelines for Maku Mazakpe: logo, colour, typography, voice and downloadable social assets.">
+  <link rel="canonical" href="https://ma-za-kpe.github.io/portfolio/brand.html">
+  <meta name="theme-color" content="#0B0A10">
+  <meta property="og:title" content="maku. brand kit">
+  <meta property="og:description" content="Logo, colour, type and voice guidelines.">
+  <meta property="og:image" content="https://ma-za-kpe.github.io/portfolio/assets/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/analytics.js" defer></script>
+  <style>
+    .bk { padding-block: 130px 100px; }
+    .bk h1 { font-size: clamp(52px, 10vw, 128px); font-weight: 700; letter-spacing: -.055em; line-height: .95; }
+    .bk-sec { padding: 72px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 260px 1fr; gap: 32px; }
+    .bk-sec > h2 { font: 500 13px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .14em; color: var(--mute); }
+    .bk-sec > h2 span { color: var(--ember); margin-right: 10px; }
+    .bk-sec p, .bk-sec li { color: var(--mute); }
+    .bk-sec strong { color: var(--bone); }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+    .tile { border-radius: var(--radius); border: 1px solid var(--line); overflow: hidden; background: var(--ink-2); }
+    .tile__art { aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 24px; }
+    .tile__art img { max-height: 100%; }
+    .tile__cap { padding: 14px 16px; font: 500 12px/1.5 var(--mono); color: var(--mute); border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 8px; }
+    .tile__cap a { color: var(--bone); }
+    .sw { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+    .sw__c { height: 150px; padding: 16px; display: flex; align-items: flex-end; font-weight: 700; font-size: 22px; letter-spacing: -.03em; }
+    .sw__m { padding: 14px 16px; font: 500 12px/1.7 var(--mono); color: var(--mute); background: var(--ink-2); }
+    .sw__m b { color: var(--bone); font-family: var(--sans); font-size: 15px; display: block; }
+    .type-row { padding: 28px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 200px 1fr; gap: 20px; align-items: baseline; }
+    .type-row:first-child { padding-top: 0; }
+    .type-row .meta { font: 500 12px/1.6 var(--mono); color: var(--dim); }
+    .rules { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .rule { padding: 22px; border-radius: 16px; border: 1px solid var(--line); background: var(--ink-2); }
+    .rule h3 { font-size: 15px; margin-bottom: 10px; font-family: var(--mono); font-weight: 500; }
+    .rule--do h3 { color: var(--volt); } .rule--dont h3 { color: var(--ember); }
+    .rule li { padding: 4px 0; font-size: 15px; }
+    @media (max-width: 820px) { .bk-sec, .type-row, .rules { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="nav is-scrolled">
+    <div class="nav__inner wrap">
+      <a class="brand" href="./" aria-label="Back to portfolio">
+        <svg class="brand__glyph" viewBox="8 14 50 37" aria-hidden="true"><path d="M13 45V20l14 14 14-14v25" fill="none" stroke="currentColor" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="51.5" cy="44.5" r="4.5" fill="var(--ember)"/></svg>
+        <span class="brand__word">maku<span class="dot">.</span></span>
+      </a>
+      <a class="btn btn--sm btn--ghost" href="./">← Portfolio</a>
+    </div>
+  </header>
+
+  <main class="wrap bk">
+    <p class="eyebrow"><span>v1.0</span> Brand guidelines</p>
+    <h1>The <em class="serif">maku.</em> brand kit</h1>
+    <p class="section__sub">One idea runs through everything: <strong style="color:var(--bone)">Africa-built, global-grade</strong>. That means confident, precise and warm. The ink is calm, the ember is energetic, and the full stop says the work is finished and shipped.</p>
+
+    <section class="bk-sec">
+      <h2><span>01</span>Logo</h2>
+      <div>
+        <p style="margin-bottom:24px">The mark is a single-stroke <strong>M</strong> followed by an ember <strong>full stop</strong>. The line is engineering; the dot means shipped, done, decided. Use the app-icon mark for avatars and favicons, the glyph inline beside text, and the wordmark wherever there's room.</p>
+        <div class="tiles">
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/mark.svg" alt="Primary mark, ink" width="120" height="120"></div><figcaption class="tile__cap">Primary mark <a href="assets/brand/mark.svg" download>SVG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art" style="background:var(--bone)"><img src="assets/brand/mark-ember.svg" alt="Ember mark" width="120" height="120"></div><figcaption class="tile__cap">Ember mark <a href="assets/brand/mark-ember.svg" download>SVG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/wordmark.svg" alt="Wordmark" width="200" height="58"></div><figcaption class="tile__cap">Wordmark <a href="assets/brand/wordmark.svg" download>SVG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art" style="color:var(--bone)"><img src="assets/brand/glyph.svg" alt="Glyph" width="110" height="82" style="filter:invert(1) hue-rotate(180deg)"></div><figcaption class="tile__cap">Glyph (currentColor) <a href="assets/brand/glyph.svg" download>SVG</a></figcaption></figure>
+        </div>
+        <p style="margin-top:24px">Clear space: keep at least the dot's diameter × 2 around the mark. Minimum size: 16 px for the mark and 72 px wide for the wordmark.</p>
+      </div>
+    </section>
+
+    <section class="bk-sec">
+      <h2><span>02</span>Colour</h2>
+      <div>
+        <p style="margin-bottom:24px">Lead with ink, punctuate with ember. Volt is for live and status signals only. Iris only ever appears inside gradients. A good rough mix is 70% ink, 20% bone, 8% ember and 2% volt.</p>
+        <div class="tiles">
+          <div class="sw"><div class="sw__c" style="background:#0B0A10;color:#F4F1EA">Ink</div><div class="sw__m"><b>#0B0A10</b>RGB 11 10 16 · backgrounds</div></div>
+          <div class="sw"><div class="sw__c" style="background:#F4F1EA;color:#0B0A10">Bone</div><div class="sw__m"><b>#F4F1EA</b>RGB 244 241 234 · text, light surfaces</div></div>
+          <div class="sw"><div class="sw__c" style="background:#FF5A36;color:#0B0A10">Ember</div><div class="sw__m"><b>#FF5A36</b>RGB 255 90 54 · primary accent, CTAs</div></div>
+          <div class="sw"><div class="sw__c" style="background:#D4FF3A;color:#0B0A10">Volt</div><div class="sw__m"><b>#D4FF3A</b>RGB 212 255 58 · live / status only</div></div>
+          <div class="sw"><div class="sw__c" style="background:#8E7CFF;color:#0B0A10">Iris</div><div class="sw__m"><b>#8E7CFF</b>RGB 142 124 255 · gradients only</div></div>
+          <div class="sw"><div class="sw__c" style="background:#A19DAD;color:#0B0A10">Mute</div><div class="sw__m"><b>#A19DAD</b>RGB 161 157 173 · secondary text</div></div>
+        </div>
+        <div class="sw" style="margin-top:16px"><div class="sw__c" style="height:90px;background:linear-gradient(100deg,#FF5A36 10%,#FF7A4D 40%,#8E7CFF 95%);color:#0B0A10">Signature gradient</div><div class="sw__m">linear-gradient(100deg, #FF5A36 10%, #FF7A4D 40%, #8E7CFF 95%) · hero words &amp; social banners</div></div>
+      </div>
+    </section>
+
+    <section class="bk-sec">
+      <h2><span>03</span>Typography</h2>
+      <div>
+        <div class="type-row"><div class="meta">Display / Headlines<br>Instrument Sans 700<br>tracking −4.5%</div><p style="font-size:clamp(40px,6vw,72px);font-weight:700;letter-spacing:-.05em;line-height:1;color:var(--bone)">Africa-built.</p></div>
+        <div class="type-row"><div class="meta">Accent<br>Instrument Serif Italic<br>1–3 words max, in ember</div><p class="serif" style="font-size:clamp(40px,6vw,72px);line-height:1;color:var(--ember)">Global-grade.</p></div>
+        <div class="type-row"><div class="meta">Body<br>Instrument Sans 400<br>17 / 1.6</div><p style="font-size:17px">I ship production Android, backend and AI systems that hold up under real-world constraints.</p></div>
+        <div class="type-row"><div class="meta">Labels / Data<br>JetBrains Mono 500<br>uppercase, +14%</div><p style="font:500 13px var(--mono);text-transform:uppercase;letter-spacing:.14em;color:var(--bone)">01 — Receipts, not adjectives</p></div>
+        <p style="margin-top:20px">All three are free on Google Fonts.</p>
+      </div>
+    </section>
+
+    <section class="bk-sec">
+      <h2><span>04</span>Voice</h2>
+      <div>
+        <p>Short, specific and confident without hype. Every claim needs a number or a product behind it ("receipts, not adjectives"). Lead with the outcome, then the stack.</p>
+        <div class="rules" style="margin-top:24px">
+          <div class="rule rule--do"><h3>✓ Do</h3><ul><li>"Cut monthly infra spend 41%."</li><li>"Offline-first, built for 2G."</li><li>Pair a bold sans line with one serif-italic twist.</li><li>End statements with the ember full stop.</li></ul></div>
+          <div class="rule rule--dont"><h3>✕ Don't</h3><ul><li>"Passionate rockstar ninja developer."</li><li>Stack more than one accent colour in a single element.</li><li>Use volt for decoration.</li><li>Stretch, outline or recolour the mark.</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bk-sec">
+      <h2><span>05</span>Social assets</h2>
+      <div>
+        <p style="margin-bottom:24px">Ready-to-upload PNGs. Use the avatar for GitHub, LinkedIn, X and Cal.com.</p>
+        <div class="tiles">
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/avatar.png" alt="Avatar" width="140" height="140" loading="lazy"></div><figcaption class="tile__cap">Avatar 1024² <a href="assets/brand/avatar.png" download>PNG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/og-image.png" alt="Open Graph image" loading="lazy"></div><figcaption class="tile__cap">Link preview 1200×630 <a href="assets/brand/og-image.png" download>PNG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/linkedin-banner.png" alt="LinkedIn banner" loading="lazy"></div><figcaption class="tile__cap">LinkedIn 1584×396 <a href="assets/brand/linkedin-banner.png" download>PNG</a></figcaption></figure>
+          <figure class="tile" style="margin:0"><div class="tile__art"><img src="assets/brand/x-header.png" alt="X header" loading="lazy"></div><figcaption class="tile__cap">X header 1500×500 <a href="assets/brand/x-header.png" download>PNG</a></figcaption></figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner"><span class="brand__word">maku<span class="dot">.</span></span><p>Africa-built, global-grade.</p><a href="./">Portfolio</a></div>
+  </footer>
+</body>
+</html>
