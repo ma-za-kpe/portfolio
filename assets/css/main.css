@@ -210,6 +210,9 @@ em.serif { color: var(--ember); }
 .tag { display: inline-flex; align-items: center; gap: 8px; font: 500 12px/1 var(--mono); padding: 7px 11px; border-radius: 999px; border: 1px solid var(--line-2); color: var(--bone); }
 .tag--live { border-color: rgba(212, 255, 58, .35); color: var(--volt); }
 .tag .pulse { width: 6px; height: 6px; }
+.tag--sunset { border-style: dashed; color: var(--mute); }
+.card--sunset .card__title { color: var(--mute); }
+.sunset-note { margin-top: auto; padding-top: 14px; border-top: 1px dashed var(--line-2); font: 500 12px/1.5 var(--mono); color: var(--dim); }
 .card__title { font-size: clamp(28px, 3.2vw, 42px); font-weight: 700; letter-spacing: -.045em; line-height: 1.05; }
 .card--feature .card__title { font-size: clamp(40px, 5.4vw, 72px); }
 .card__text { color: var(--mute); font-size: 16px; }
